@@ -58,4 +58,4 @@ npm run dev
 
 ## Live Site Link
 
-- https://smartphone-management-system.netlify.app
+- https://smartphone-management-frontend-suvo.vercel.app
