@@ -28,7 +28,7 @@ This project refers to the implementation of role based authentication with regi
 - React-pdf/renderer
 - JWT Decode
 - react-hook-form
-- snoner
+- sooner
 - Netlify for deploy the project
 
 ## Installation and Setup
