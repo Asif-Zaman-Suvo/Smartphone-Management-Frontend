@@ -59,5 +59,3 @@ npm run dev
 ## Live Site Link
 
 - https://smartphone-management-system.netlify.app
-
-# l2-b2-assignment-6-fronten-Asif-Zaman-Suvo
