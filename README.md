@@ -1,4 +1,4 @@
-# SmartPhone Management Dashboard - Part-2 - Front End Code
+# SmartPhone Management Dashboard - Front End Code
 
 ## Details Of this project
 
