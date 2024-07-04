@@ -145,7 +145,7 @@ const AllSaleProducts = () => {
                   <button className="mt-2 mr-2 bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded">
                     <PDFDownloadLink
                       document={<InvoiceDocument info={info} />} // Pass specific sale details
-                      fileName={`invoice_${info.nameOfTheBuyer}.pdf`} // Use sale ID in file name
+                      fileName={`invoice_${info?.nameOfTheBuyer}.pdf`} // Use sale ID in file name
                     >
                       {() =>
                         isLoading ? "Loading document..." : "Download PDF"
