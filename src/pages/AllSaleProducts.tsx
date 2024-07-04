@@ -51,32 +51,32 @@ const AllSaleProducts = () => {
   const InvoiceDocument = ({ info }: any) => (
     <Document>
       <Page size="A4" style={styles.page}>
-        <View style={styles.section}>
-          <Text style={styles.title}>Product Sales Invoice</Text>
-          <View style={styles.table}>
-            <View style={styles.tableRow}>
-              <View style={styles.tableCell}>
+        <View style={styles?.section}>
+          <Text style={styles?.title}>Product Sales Invoice</Text>
+          <View style={styles?.table}>
+            <View style={styles?.tableRow}>
+              <View style={styles?.tableCell}>
                 <Text>Product name</Text>
               </View>
-              <View style={styles.tableCell}>
+              <View style={styles?.tableCell}>
                 <Text>Product Price</Text>
               </View>
-              <View style={styles.tableCell}>
+              <View style={styles?.tableCell}>
                 <Text>Selling Quantity</Text>
               </View>
-              <View style={styles.tableCell}>
+              <View style={styles?.tableCell}>
                 <Text>Selling Date</Text>
               </View>
-              <View style={styles.tableCell}>
+              <View style={styles?.tableCell}>
                 <Text>Name of the buyer</Text>
               </View>
             </View>
-            <View style={styles.tableRow}>
-              <View style={styles.tableCell}>
-                <Text>{info?.product.name}</Text>
+            <View style={styles?.tableRow}>
+              <View style={styles?.tableCell}>
+                <Text>{info?.product?.name}</Text>
               </View>
               <View style={styles.tableCell}>
-                <Text>{info?.product.price}$</Text>
+                <Text>{info?.product?.price}$</Text>
               </View>
               <View style={styles.tableCell}>
                 <Text>{info?.sellingQuantity} piece</Text>
@@ -126,7 +126,7 @@ const AllSaleProducts = () => {
             </tr>
           </thead>
           <tbody>
-            {data?.data.map((info: any) => (
+            {data?.data?.map((info: any) => (
               <tr
                 key={info._id}
                 className="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
