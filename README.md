@@ -29,7 +29,7 @@ This project refers to the implementation of role based authentication with regi
 - JWT Decode
 - react-hook-form
 - sooner
-- Netlify for deploy the project
+- Vercel for deploy the project
 
 ## Installation and Setup
 
